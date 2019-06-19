@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.text{
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: solid 5px #222;
+}
+.text::before{
+  position: absolute;
+  content: "";
+  left: 30px;
+  bottom: -45px;
+  border: 20px solid transparent;
+  border-top: 20px solid #222;
+}
+.text::after{
+  position: absolute;
+  content: "";
+  left: 30px;
+  bottom: -38px;
+  border: 20px solid transparent;
+  border-top:20px solid #fff;
+}
 /* 回答はここに書いてね */

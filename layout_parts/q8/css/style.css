@@ -1,5 +1,262 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.btn{
+  margin-left: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.btn__btn{
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 10px;
+}
+.small{
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+  border-radius: 3px;
+}
+.middle{
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+  border-radius: 5px;
+}
+.large{
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+  border-radius: 7px;
+}
+.common{
+  background-color: #00bcd4;
+}
+.error{
+  background-color: #ff0481;
+}
+.disabled{
+  background-color: #e5e5e5;
+  cursor: default;
+}
+.shadow{
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 
+              0 1px 4px rgba(0, 0, 0, .12);
+}
+/*______________________________________________*/
+.form{
+  text-align: center;
+}
+.form__box{
+  display: inline-block;
+  background: #ecf1f2;
+  width: 700px;
+  padding: 20px;
+}
+.exercise::before{
+  background: #ccc;
+  content: "";
+  height: 1px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  position: absolute;
+}
+.exercise{
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+.formtitle{
+  background: #ecf1f2;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+  position: relative;
+}
+.left{
+  float: left;
+  width: 300px;
+}
+.left__top > li{
+  margin-bottom: 20px;
+}
+.side{
+  list-style: none;
+  height: 25px;
+}
+.asterisk{
+  color: #f00;
+}
+.textbox{
+  margin-top: 0;
+}
+.side .side__content{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+  clear: both;
+}
+.main{
+  float: right;
+  width: 180px;
+}
+input.gender__btn{
+  display: none;
+}
+.gender{
+  text-align: left;
+}
+.genderbox{
+  cursor: pointer;
+}
+.cercle{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.cercle:before{
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  left: 0;
+  border: 1px solid #ccc;
+  width: 14px;
+  height: 14px;
+  content: "";
+}
+.gender__btn:checked + .cercle:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+.prefecture{
+  position: relative;
+}
+.prefecture:after{
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  right: 10px;
+  transform: rotate(45deg);
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  content:"";
+}
+.checkbox{
+  text-align: right;
+}
+.content__box:before{
+  position: absolute;
+  content: "";
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 0;
+  margin-top: -9px;
+}
+.checkbox__btn:checked + .content__box:after{
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  width: 8px;
+  height: 16px;
+  margin-top: -14px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+.checkbox__btn{
+  display: none;
+}
+.sentence{
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+}
+select{
+  -webkit-appearance: none;
+  width: 100%;
+  font-size: 12px;
+  line-height: 12px;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+.sentence--box{
+  outline: none;
+  -webkit-appearance: none;
+}
+.sentence:focus{
+  box-shadow: 0 0 5px #00BCD4;
+}
+.content{
+  padding-left: 24px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.checkbox{
+  text-align: right;
+}
+.export{
+  float: right;
+  text-align: right;  
+}
+.export__btn{
+  padding: 0 10px;
+  border-radius: 5px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #fff;
+  background: #00BCD4;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.export__btn:active{
+  background: #fff;
+  color: #00BCD4;
+}
+.right{
+  float: right;
+  width: 380px;
+}
+textarea{
+  width: 100%;
+  height: 203px;
+  font-size: 12px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  outline: none;
+}
+textarea:focus{
+  box-shadow: 0 0 5px #00bcd4;
+}
 
 /* 回答はここに書いてね */

@@ -32,7 +32,7 @@
                大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。
                中央寄せするブロックの横幅が可変の場合はtext-alignでの方法が、固定の場合はmarginでの方法が向いています。
           -->
-          <div class="q6 q6--horizontal">
+          <div class="q6 q6--horizontal content">
             <!--
                  ■この問題で使う大事なプロパティ
                  ・display
@@ -40,8 +40,8 @@
             -->
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
-            <div class="q6__box">
-              <div>
+            <div class="q6__box item">
+              <div class="item__aline">
                 <p>text-align</p>
               </div>
             </div>
@@ -53,7 +53,7 @@
             -->
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
-            <div class="q6__box">
+            <div class="q6__box item item__margin">
               <p>margin</p>
             </div>
             <!-- Q6-1の回答はここに書いてね -->
@@ -84,8 +84,8 @@
           <!-- Q6-2の回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q6 q6--around">
-            <div>
+          <div class="q6 q6--around block">
+            <div class="cell">
               <p>table</p>
             </div>
           </div>
@@ -99,7 +99,7 @@
           <!-- Q6-2の回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q6 q6--around">
+          <div class="q6 q6--around block flex">
             <p>flex</p>
           </div>
           <!-- Q6-2の回答はここに書いてね -->
@@ -114,8 +114,8 @@
             <!-- Q6-2の回答はここに書いてね -->
             <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
             <!-- 新たにタグは追加しなくてもできます。 -->
-            <div class="q6__box is-stable">
-              <p class="q6__box__inner">position固定</p>
+            <div class="q6__box is-stable last left">
+              <p class="q6__box__inner fix">position固定</p>
             </div>
             <!-- Q6-2の回答はここに書いてね -->
             <!--
@@ -128,8 +128,8 @@
             <!-- Q6-2の回答はここに書いてね -->
             <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
             <!-- 新たにタグは追加しなくてもできます。 -->
-            <div class="q6__box is-flexible">
-              <p class="q6__box__inner">position可変</p>
+            <div class="q6__box is-flexible last right">
+              <p class="q6__box__inner vart">position可変</p>
             </div>
             <!-- Q6-2の回答はここに書いてね -->
           </div>

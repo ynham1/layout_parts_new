@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.block{
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+  vertical-align: middle;
+  border-collapse: collapse;
+}
+.content .block tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+.block th{
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 26px;
+  background-color: #2244aa;
+  border: solid 1px #dedede;
+}
+.block td{
+  border: solid 1px #dedede;
+  font-size: 16px;
+  line-height: 22px;
+}
+tr:last-child{
+  border-top: dashed 2px #000000;
+}
 /* 回答はここに書いてね */
+

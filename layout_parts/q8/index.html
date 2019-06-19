@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common small btn__btn">common</div>
+            <div class="error small btn__btn">error</div>
+            <div class="disabled small btn__btn">disabled</div>
+            <div class="shadow small btn__btn">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common middle btn__btn">common</div>
+            <div class="error middle btn__btn">error</div>
+            <div class="disabled middle btn__btn">disabled</div>
+            <div class="shadow middle btn__btn">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common large btn__btn">common</div>
+            <div class="error large btn__btn">error</div>
+            <div class="disabled large btn__btn">disabled</div>
+            <div class="shadow large btn__btn">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -98,10 +98,78 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            
+          <div class="form">
+            <form class="q8 form__box">
+              <div class="exercise">
+                <p class="formtitle">Form Exercise</p>
+              </div>
+              <div class="left">
+                <ul class="left__top">
+                  <li class="side">
+                    <p class="side__content">
+                      <label for="name">名前<span class="asterisk">*</span></label>
+                    </p>
+                    <div class="main textbox">
+                      <input type="text" required="required" class="sentence sentence--box">
+                    </div>
+                  </li>
+                  <li class="side">
+                    <p class="side__content">
+                      <label for="name">性別</label>
+                    </p>
+                    <div class="side main gender">
+                      <label class="genderbox"><input type="radio" required="required" class="gender__btn" name="gender"><span class="cercle">男性</span></label>
+                      <label class="genderbox"><input type="radio" required="required" class="gender__btn" name="gender"><span class="cercle">女性</span></label>
+                  </div>
+                  </li>
+                  <li class="side">
+                    <P class="side__content">
+                      <label for="name">出身</label>
+                    </P>
+                    <div class="main prefecture">
+                      <select name="prefecture" class="sentence--box">
+                        <option value="tokyo">東京</option>
+                        <option value="saitama">埼玉</option>
+                        <option value="chiba">千葉</option>                    
+                        <option value="kanagawa">神奈川</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="side">
+                    <p class="side__content">
+                        <label for="name">Eメール<span class="asterisk">*</span></label>
+                      </p>
+                      <div class="main">
+                        <input type="text" required="required" class="sentence sentence--box" placeholder="ex)hoge@gamail.com">
+                      </div>
+                  </li>
+                  <li class="side">
+                    <p class="side__content">
+                    <label for="name">電話番号</label>
+                    </p>
+                    <div class="main">
+                      <input type="text" required="required" class="sentence sentence--box" placeholder="ex)08012345678">
+                  </div>
+                  </li>
+                  <li class="side">
+                    <div class="main checkbox sentence--box">
+                      <label class="content"><input type="checkbox" required="required" class="checkbox__btn"><span class="content__box">20歳以上です</span></label>
+                    </div>
+                  </li>
+                </ul>
+                <div class="side export main">
+                <button class="export__btn" type="submit">送信</button>
+                  <!--<input type="submit" value="送信"/>-->
+               </div>
+              </div>
+              <div class="right">
+                <textarea placeholder="何かあれば入力してください。"></textarea>
+              </div>
+            </form>
           </div>
-          <!-- 回答はここに書いてね -->
+          <!-- 回答はここに書いてね 
+          <input type="radio"class="csl__btn"name="sex"value="male">
+<input type="radio"class="csl__btn"name="sex"value="female">-->
         </div>
       </div>
     </div>
