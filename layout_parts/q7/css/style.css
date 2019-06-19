@@ -12,23 +12,22 @@
   box-sizing: border-box;
 }
 .text__1{
+  margin-left: 50px;
   float: left;
 }
-.left{
+.q7--float .text__1:first-child{
   margin-left: 0;
-}
-.right{
-  margin-left: 50px;
 }
 .table{
   display: table;
 }
 .table__text{
   display: table-cell;
+  padding: 0 0 0 50px;
   vertical-align: middle;
 }
-.rightbox{
-  margin-left: 50px;
+.table .table__text:first-child{
+  padding-left: 0; 
 }
 .inlineblock{
   font-size: 0;

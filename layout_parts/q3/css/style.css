@@ -8,7 +8,7 @@
   vertical-align: middle;
   border-collapse: collapse;
 }
-.content .block tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 .block th{
@@ -24,7 +24,7 @@
   font-size: 16px;
   line-height: 22px;
 }
-tr:last-child{
+.block tr:last-child{
   border-top: dashed 2px #000000;
 }
 /* 回答はここに書いてね */

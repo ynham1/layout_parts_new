@@ -12,10 +12,10 @@
   vertical-align: middle;
   text-align: center;
 }
-.item:first-child{
+.content .item:first-child{
   margin-bottom: 20px;
 }
-.fix,.variable{
+.table-cell{
   padding: 20px;
   display: table-cell;
 }
