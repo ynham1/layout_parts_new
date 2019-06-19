@@ -8,7 +8,7 @@
   vertical-align: middle;
   border-collapse: collapse;
 }
-tr:nth-child(odd) {
+.block tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 .block th{

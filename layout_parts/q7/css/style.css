@@ -11,11 +11,11 @@
   width: 225px;
   box-sizing: border-box;
 }
-.text__1{
+.float__text{
   margin-left: 50px;
   float: left;
 }
-.q7--float .text__1:first-child{
+.q7--float .float__text:first-child{
   margin-left: 0;
 }
 .table{
